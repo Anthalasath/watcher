@@ -1,0 +1,25 @@
+{
+  "name": "watcher",
+  "version": "1.0.0",
+  "description": "A bot to keep track of information related to PRPS and DUBI",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "crypto",
+    "prps",
+    "dubi",
+    "bot",
+    "discord"
+  ],
+  "author": "Anthalasath",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "get-json": "^1.0.0",
+    "jsonfile": "^4.0.0",
+    "node-coinmarketcap": "^0.2.0",
+    "request": "^2.83.0"
+  }
+}
